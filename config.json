@@ -3,7 +3,7 @@
         "host": "zephyr.proxy.rlwy.net",
         "port": 57463,
         "user": "root",
-        "password": "vaPvWuiTlhfIksMxfyqPHKsxhqNYjPHV",
+        "password": "kJrGuruBunILDwOfhXlYcfrCspgEtyJf",
         "database": "railway"
     },
     "secret" : "SUPER_SECRET_KEY_REPLACE_ME_IN_PRODUCTION",
