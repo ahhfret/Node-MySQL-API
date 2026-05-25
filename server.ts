@@ -7,6 +7,18 @@ import accountsController from './accounts/accounts.controller';
 import swaggerDocs from './_helpers/swagger';
 import { initialize } from './_helpers/db';
 
+process.on('uncaughtException', (err) => {
+    console.error('Uncaught Exception:', err);
+    process.exit(1);
+});
+
+process.on('unhandledRejection', (reason) => {
+    console.error('Unhandled Rejection:', reason);
+    process.exit(1);
+});
+
+console.log('Server starting...');
+
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
