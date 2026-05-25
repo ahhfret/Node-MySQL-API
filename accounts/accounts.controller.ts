@@ -170,7 +170,7 @@ function createSchema(req: any, res: any, next: any) {
         lastName: Joi.string().required(),
         email: Joi.string().email().required(),
         password: Joi.string().min(6).required(),
-        confirmPassowrd: Joi.string().valid(Joi.ref('password')).required(),
+        confirmPassword: Joi.string().valid(Joi.ref('password')).required(),
         role: Joi.string().valid(Role.Admin, Role.User).required()
     });
     validateRequest(req, next, schema);
