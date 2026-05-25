@@ -1,19 +1,19 @@
 {
     "database": {
-        "host": "localhost",
+        "host": "mysql.railway.internal",
         "port": 3306,
         "user": "root",
-        "password": "tedert",
-        "database": "node_mysql_api"
+        "password": "vaPvWuiTlhfIksMxfyqPHKsxhqNYjPHV",
+        "database": "railway"
     },
     "secret" : "SUPER_SECRET_KEY_REPLACE_ME_IN_PRODUCTION",
-    "emailFrom": "kali97@ethereal.email",
+    "emailFrom": "noreply@myapp.com",
     "smtpOptions": {
-        "host": "smtp.ethereal.email",
-        "port": 587,
+        "host": "sandbox.smtp.mailtrap.io",
+        "port": 2525,
         "auth": {
-            "user": "kali97@ethereal.email",
-            "pass": "2vGbJqEvsTZ8FgJDyS"
+            "user": "cb30aa3e24587c",
+            "pass": "43743d61e607c8"
         }
     }
 }
